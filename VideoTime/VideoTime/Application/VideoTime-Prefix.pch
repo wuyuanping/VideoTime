@@ -1,0 +1,49 @@
+//
+//  VideoTime-Prefix.pch
+//  VideoTime
+//
+//  Created by 吴园平 on 23/09/2017.
+//  Copyright © 2017 WuYuanPing. All rights reserved.
+//
+
+#ifndef VideoTime_Prefix_pch
+#define VideoTime_Prefix_pch
+#ifdef __OBJC__
+
+#pragma mark - Common
+#import "YPCommon.h"
+#import "YPCommonTool.h"
+#import "YPHUDHelper.h"
+#import "AppNotificationNames.h"
+#import "AppUserDefaultKeys.h"
+#import "YPAPI.h"
+
+
+#pragma mark - private
+#import "AccountConfig.h"
+
+#pragma mark - Base
+#import "APIConfig.h"
+
+#pragma mark - System
+
+
+#pragma mark - category
+#import "UIView+YP.h"
+
+
+#pragma mark - Third
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import <YYModel/YYModel.h>
+
+
+#pragma mark - 微信登录
+
+
+
+#import "AppDelegate.h"
+
+#endif
+#endif /* VideoTime_Prefix_pch */
