@@ -34,7 +34,7 @@
     }
 }
 
-// Hijack the push method to disable the gesture
+//  the push method to disable the gesture
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])

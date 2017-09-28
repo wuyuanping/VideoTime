@@ -63,7 +63,7 @@ static NSString *const kUserLoginSendCode       = @"/api/v2/auth/sendcode";
 static NSString *const kUserLoginWithPhone      = @"/api/auth/phone";
 
 static NSString *const kUserWechatUpdate        = @"/api/user/bindwechat";
-static NSString *const kUserMobileUpdate        = @"/api/user/bindmobile";
+static NSString *const kUserMobileUpdate        = @"/api/user/bindmobile"; // 绑定新手机
 
 //订单
 static NSString *const kOrderCreate             = @"/api/order/create";

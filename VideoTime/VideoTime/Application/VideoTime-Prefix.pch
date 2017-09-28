@@ -17,6 +17,9 @@
 #import "AppNotificationNames.h"
 #import "AppUserDefaultKeys.h"
 #import "YPAPI.h"
+#import "YPSystemConfigHelper.h"
+#import "YPUserManager.h"
+
 
 
 #pragma mark - private
@@ -40,7 +43,10 @@
 
 
 #pragma mark - 微信登录
-
+#import "NetworkHelper.h"
+#import "UserInfo.h"
+#import "WXApi.h"
+//#import "WXApiManager.h"
 
 
 #import "AppDelegate.h"

@@ -11,7 +11,7 @@
 #ifndef AppUserDefaultKeys_h
 #define AppUserDefaultKeys_h
 
-#define UD_IM_FORCED_lOGINED_KEY       @"IM_FORCED_lOGINED_KEY"
+#define UD_IM_FORCED_lOGINED_KEY       @"IM_FORCED_lOGINED_KEY" // 用户登录key
 #define UD_IS_SHOWED_GUIDE_KEY         @"IS_SHOWED_GUIDE_KEY"
 #define UD_SYSTEM_CONFIG               @"SYSTEM_CONFIG_DATA"
 

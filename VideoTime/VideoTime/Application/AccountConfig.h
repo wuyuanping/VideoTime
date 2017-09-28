@@ -18,8 +18,8 @@
 // 网易云信AppId
 #define NIMAPPID        IS_TEST_MODE ? @"33f1c9a817f0ebb355ecd63c3492af63" : @"b4573db8f3d8a5a49768d4791048f01f"
 // 网易云信推送证书
-#define NIMCERNAME      @"VideoTimeAPS"
-#define NIMCERDEVNAME   @"VideoTimeAPSDev"
+#define NIMCERNAME       @"VideoTimeAPS"
+#define NIMCERDEVNAME    @"VideoTimeAPSDev"
 
 // 诸葛io
 #define ZHUGEIO_APPKEY   @"b5f39b40897c446795a3271f5e0eb541"
@@ -29,11 +29,11 @@
 /**
  *  微信开放平台申请得到的 appid, 需要同时添加在 URL schema
  */
-#define WX_APP_ID       @"wx5a23cda4c23cda55"
+#define WX_APP_ID        @"wx5a23cda4c23cda55"
 // AppSecret
-#define WX_OPEN_KEY     @"b06d35ff2d6ba19e25786a43924eb2c5"
+#define WX_OPEN_KEY      @"b06d35ff2d6ba19e25786a43924eb2c5"
 
-#define BUGLY_APP_ID        @"i1400030310"
+#define BUGLY_APP_ID     @"i1400030310"
 #define WB_APP_ID @""
 
 #define GtAppId     GT_TEST_MODE ? @"qjFCXQAjsF8Cebe76Cusj3"  : @"NZHDaWEBxd5XAmyPqoPzT8"

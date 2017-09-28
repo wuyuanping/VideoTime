@@ -11,7 +11,7 @@
 #ifndef AppNotificationNames_h
 #define AppNotificationNames_h
 
-#define USER_LOGINED_NOTIFICATION            @"APP_USER_LOGINED_NOTIFICATION"
+#define USER_LOGINED_NOTIFICATION            @"APP_USER_LOGINED_NOTIFICATION" // 登陆成功
 #define USER_LOGOUT_NOTIFICATION             @"APP_USER_LOGOUT_NOTIFICATION"
 #define CHAT_APPOINTMENT_NOTIFICATION        @"chat_appointment_notification"
 
@@ -30,7 +30,7 @@
 
 #define ZHIMA_RETURN                         @"ZHIMA_RETURN"
 
-#define PASS_USER_DEFAULT_KEY                @"PASS_USER_DEFAULT_KEY"
+#define PASS_USER_DEFAULT_KEY                @"PASS_USER_DEFAULT_KEY" // 用户审核通过key
 
 
 #endif /* AppNotificationNames_h */
